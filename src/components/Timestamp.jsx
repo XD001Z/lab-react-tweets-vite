@@ -1,6 +1,6 @@
-const Timestamp = ({ timestamp }) => {
+const Timestamp = ({ time }) => {
   return (
-    <span className="timestamp">{timestamp}</span>
+    <span className="timestamp">{time}</span>
   )
 }
 

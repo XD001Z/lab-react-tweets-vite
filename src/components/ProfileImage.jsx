@@ -1,6 +1,6 @@
-const ProfileImage = ({ src }) => {
+const ProfileImage = ({ image }) => {
   return (
-    <img src={src} alt="profile" className="profile" />
+    <img src={image} alt="profile" className="profile" />
   )
 }
 
